@@ -1,0 +1,35 @@
+.table-container {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.no-data-message {
+    text-align: center;
+    width: 100%;
+}
+
+.no-data-message p {
+    font-size: 18px;
+    color: gray;
+}
+
+.pagination {
+    margin-top: 10px;
+}
+
+.pagination button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    background: lightgray;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background: #2b2b32;
+    color: white;
+}

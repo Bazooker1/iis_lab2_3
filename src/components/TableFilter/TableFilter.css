@@ -1,0 +1,42 @@
+.filter-container {
+    width: 100%;
+    padding: 20px;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.filter-item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.filter-item select {
+    margin-right: 10px;
+    padding: 8px;
+}
+
+.add-filter-button {
+    padding: 8px 16px;
+    background: #2b2b32;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add-filter-button:hover {
+    background: #2b2b32;
+}
+
+.remove-filter-button {
+    padding: 8px;
+    background: #2b2b32;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.remove-filter-button:hover {
+    background: #2b2b32;
+}

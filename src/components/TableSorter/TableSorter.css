@@ -1,0 +1,42 @@
+.sort-container {
+    width: 100%;
+    padding: 20px;
+    background: white;
+    margin-bottom: 20px;
+}
+
+.sort-item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.sort-item select {
+    margin-right: 10px;
+    padding: 8px;
+}
+
+.add-criteria-button {
+    padding: 8px 16px;
+    background: #2b2b32;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add-criteria-button:hover {
+    background: #2b2b32;
+}
+
+.remove-criteria-button {
+    padding: 8px;
+    background: #2b2b32;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.remove-criteria-button:hover {
+    background: #2b2b32;
+}
